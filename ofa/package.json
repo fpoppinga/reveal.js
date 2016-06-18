@@ -1,0 +1,10 @@
+{
+  "name": "ofa-webclient",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.11.2",
+    "midi": "^0.9.0",
+    "socket.io": "^1.3.2",
+    "underscore": "^1.7.0"
+  }
+}
