@@ -44,13 +44,14 @@
 					<h1>RoboCup</h1>
 					<h3>Einführung und Überblick</h3>
 					<p>
-						<small>Finn Poppinga</small>
+						<small>Poppinga & Poppinga</small>
 					</p>
                     <aside class="notes">
                         <ul>
                             <li>Begrüßung</li>
                             <li>Vorstellung Finn</li>
-                            <li>Zweiter RoHOW - wer war letzes Jahr schon da?</li>
+                            <li>Vorstellung Martin</li>
+                            <li>Dritter RoHOW - wer war letzes Jahr schon da?</li>
                             <li>Vorstellung zweier Sportarten</li>
                         </ul>
                     </aside>
@@ -58,7 +59,7 @@
 
 				<section data-state="chess">
 					<aside class="notes">
-                        <ul>
+                        <ul style="color:red;">
                             <li>Kennen Sie diesen Mann?</li>
                             <li>Wissen Sie, was er macht?</li>
                             <li>Schach gilt als schwierig für Menschen</li>
@@ -68,7 +69,7 @@
 
                 <section data-state="deepBlue">
                     <aside class="notes">
-                        <ul>
+                        <ul style="color:red;">
                             <li>Deep Blue schlägt Gary Kasparov</li>
                             <li>Das war schon 1997</li>
                         </ul>
@@ -77,8 +78,9 @@
 
                 <section data-state="win95">
                     <aside class="notes">
-                        <ul>
+                        <ul style="color:red;">
                             <li>Ihr Computer 1997</li>
+                            <li>Wer war 1997 schon geboren?</li>
                             <li>Was können Computer gut?</li>
                             <li>
                                 <ul>
@@ -92,7 +94,7 @@
                 </section>
 				<section data-state="soccer">
                     <aside class="notes">
-                        <ul>
+                        <ul style="color:blue;">
                             <li>Diese Sportart kennen Sie auch.</li>
                             <li>Wäre Schach einfach, würde es Fußball heißen</li>
                             <li>Kinder können nach dem Laufen sofort Fußball spielen</li>
@@ -102,14 +104,14 @@
                 <section>
                     <div class="animations"><img width="100%" height="100%" src="images/the-worst-soccer-goalie.gif"> </div>
                     <aside class="notes">
-                        <ul>
+                        <ul style="color:blue;">
                             <li>Meistens zumindest.</li>
                         </ul>
                     </aside>
                 </section>
                 <section data-state="robocup">
                     <aside class="notes">
-                        <ul>
+                        <ul style="color:blue;">
                             <li>Gründung der RoboCup Organization 1997</li>
                             <li>Etwas schwierigeres als Schach</li>
                             <li>Ziel: 2050 FIFA Weltmeister der Menschen schlagen</li>
@@ -118,7 +120,7 @@
                 </section>
                 <section data-state="teamMeeting">
                     <aside class="notes">
-                        <ul>
+                        <ul style="color:blue;">
                             <li>Aber was macht Fußball eigentlich schwierig für Roboter?</li>
                             <li>Basics</li>
                             <li>
@@ -139,19 +141,46 @@
                     </aside>
                 </section>
 
-                <section data-background="images/NAO_1.jpg">
+                <section data-background="images/rohow2016.jpg">
+                    <h1 style="
+                        color: red;
+                        text-transform: none;
+                        font-family: impact, sans-serif;
+                        font-size: 4em;
+                        background: teal;
+                        margin: 0;
+                    ">RoHOW</h1>
                     <aside class="notes">
+                        <ul style="color:red;">
+                            <li>Auf diesem Event zwei Ligen</li>
+                            <li>Beide spielen autonom Fußball</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="images/hksl.jpg">
+                    <aside class="notes">
+                        <ul style="color:red;">
+                            <li>Selbstgebaute Roboter</li>
+                            <li>Sensorik vergleichbar zu Menschen</li>
+                            <li>60cm bis 90cm groß</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section data-background="images/NAO_1.jpg">
+                    <aside class="notes" style="color:blue;">
                         <ul>
                             <li>NAO</li>
                             <li>Aldebaran</li>
-                            <li></li>
+                            <li>Standardplattform</li>
                         </ul>
                     </aside>
                 </section>
 
                 <section data-background="images/nao_brain.jpg">
                     <aside class="notes">
-                        <ul>
+                        <ul style="color:blue;">
                             <li>Wie trainiert man einen Roboter?</li>
                         </ul>
                     </aside>
@@ -159,10 +188,10 @@
 
                 <section data-background="images/erik.jpg">
                     <aside class="notes">
-                        <ul>
+                        <ul style="color:blue;">
                             <li>Programmierung</li>
                             <li>Oft mit Denken verbunden.</li>
-                            <li>C++</li>
+                            <li>C++, Python</li>
                         </ul>
                     </aside>
                 </section>
@@ -171,7 +200,7 @@
                     <h2>Wie sieht ein Roboter die Welt?</h2>
                     <div class="image"><img width="80%" height="80%" src="images/nao_top.png"></div>
                     <aside class="notes">
-                        <ul>
+                        <ul style="color:red;">
                             <li>Lokalisierung auf dem Spielfeld</li>
                             <li>Mit einem Auge</li>
                             <li>Und geringem Sichtfenster</li>
@@ -182,7 +211,7 @@
                 <section data-debug-image="Vision.topCamera.Image">
                     <div class="image"><canvas width="640" height="480" style="transform:scale(1.2);"></canvas></div>
                     <aside class="notes">
-                        <ul>
+                        <ul style="color:red;">
                             <li>Umgerechnet, für Menschen sichtbar</li>
                             <li>Aus diesem Bild alle Informationen ableiten</li>
                             <li>
@@ -202,7 +231,7 @@
                 </section>
 
                 <section data-background="images/referee.jpg">
-                    <aside class="notes">
+                    <aside class="notes" style="color:blue;">
                         <ul>
                             <li>Spiel geleitet von Menschen</li>
                             <li>Das Regelwerk wird von einem Kommitee bestimmt</li>
@@ -213,7 +242,7 @@
 
                 <section data-background="images/referee2.jpg">
                     <aside class="notes">
-                        <ul>
+                        <ul style="color:blue;">
                             <li>Kommunikation über W-LAN</li>
                             <li>Geringe Nachrichtengröße</li>
                             <li>Andere Regeln</li>
@@ -248,7 +277,7 @@
         <script src="http://localhost:8000/connection.js"></script>
 
         <script type="text/javascript">
-            var naoIP = '10.1.24.22';
+            var naoIP = '10.0.24.27';
             var subscription = null;
             var connected = true;
             debugMan.init();
